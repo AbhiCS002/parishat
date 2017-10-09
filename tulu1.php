@@ -283,7 +283,14 @@ nav.vertical {
 
 </style>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -349,14 +356,19 @@ function showDivs(n) {
    <div class="wrapper">
   <nav class="vertical">
     <ul>
-      <li>
-        <a href="#">Home</a>
+        <li>
+          <img src="images/final logo copy.png" alt="" height="100px;" width="100px;"/>
+          <p><font size="2" color="White">Like our page on Facebook</font></p>
+          <div class="fb-like" style=" padding-bottom:15px; background-color:#262626;  " data-href="https://www.facebook.com/pages/%E0%B2%89%E0%B2%A6%E0%B3%8D%E0%B2%AF%E0%B2%BE%E0%B2%B5%E0%B2%B0-%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%BE%E0%B2%B9%E0%B3%8D%E0%B2%AE%E0%B2%A3-%E0%B2%AA%E0%B2%B0%E0%B2%BF%E0%B2%B7%E0%B2%A4%E0%B3%8D/122840598365720?created&amp;ref_type=bookmark" 
+             data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         <div>
           <ul>
               <li><a href="tulu1.php">Tulu Language</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Corporate</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">TuluNadu</a></li>
+            <li><a href="#">Tulunadu Temples</a></li>
+            <li class="active"><a href="great.php">Great Acharyas</a></li>
+            <li><a href="articles.php">readmore</a></li>
+           
           </ul>
         </div>
       </li>
@@ -364,7 +376,6 @@ function showDivs(n) {
   </nav>
        </div>
 </div>
-
 
 
 

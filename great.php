@@ -204,6 +204,7 @@ nav.vertical {
 
     nav.vertical > ul > li {
       display: block;
+     
     }
 
       nav.vertical > ul > li > a {
@@ -268,16 +269,17 @@ nav.vertical {
                 padding: 10px 0 10px 50px;
               }
 #columnright{
-    width:300px;
+     width:280px;
     height:95%;
-    background-color: white;
-   margin-top: -63px;
-   margin-right: -325px;
+    
+   margin-top: 30px;
+   margin-right:35px;
     box-shadow:0 2px 50px;
     color:black;
     float: right;
-    border: 5px dotted black;
+    
     border-radius: 5px;
+    
 }
 .read-more-state {
   display: none;
@@ -313,6 +315,7 @@ nav.vertical {
   line-height: 2;
   border: 1px solid #ddd;
   border-radius: .25em;
+  margin-left: 20px;
 }
 
 /* Other style */ 
@@ -325,6 +328,16 @@ nav.vertical {
 
 </style>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 
 <script>
 var slideIndex = 1;
@@ -354,44 +367,36 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 </script>
- <script type="text/javascript">
-            $(function(){ /* to make sure the script runs after page load */
 
-    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
-
-        event.preventDefault(); /* prevent the a from changing the url */
-        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
-
-    });
-
-});
-        </script>
-<div style="background-color:#f2f2f2; color:white; padding:690px;">
+<div style="background-color: #fafafa; background-image: url('images/back3.jpg'); background-repeat: no-repeat;  background-size: 1580px 1360px; color:white; padding:690px;">
 
 </div>
 
 
 
-    <img style="margin-left:90px; margin-top: -2550px;" src="images/brahmanparishat.png" alt=""/>
+<img style="margin-left: 135px;  margin-top: -2513px;" src="images/final logo copy.png" width="130px" height="170px"  alt=""/>
+  
+<img style="margin-left: 735px;  margin-top: -2513px;" src="images/madhva.png" width="160px" height="170px"  alt=""/>
 
-
-    <div class="block" style=" padding-top: 80px; padding-bottom:30px; background: rgb(223,105,78);  box-shadow:0 2px 50px;  color:black; margin-left:90px;  box-shadow:0 10px 50px;   margin-right:90px; margin-top:-1370px; ">
-          <p  align="center" valign="middle"><font size="8" color="white">Brahman Parishat</font></p>
+    <div  id="borderimg2"  class="block" style=" padding-top: 130px; padding-bottom:30px; background-color:#ff3300; background-image: url('images/1.jpg');  background-size: 140px 160px;    box-shadow:0 2px 50px;  color:black; margin-left:120px;  box-shadow:0 10px 50px;   margin-right:120px; margin-top: -1385px; border-bottom-left-radius: 2em; border-top-right-radius:  2em; ">
+          <p    align="center" valign="middle"><font size="8" color="white">ಉದ್ಯಾವರ ಬ್ರಾಹ್ಮಣ ಪರಿಷತ್</font></p>
 
     </div>
 
-    <div style="background-color:#ffffcc; box-shadow:0 1px 50px; height: 95%;  color:black; margin-left:90px; margin-right:90px; margin-top:0px">
-        <ul>
-  <li><a class="active" href="home.php">Home</a></li>
-  <li><a href="gallery.php">Gallery</a></li>
-  <li><a href="Table.php">Contact</a></li>
-  <li><a href="About.php">About</a></li>
-  <li><a href="content1.html">Index</a></li>
+
+    <div   style="background-color:#ffffff;   box-shadow:0 1px 50px;  color:black; margin-left:120px; margin-right:120px; margin-top:0px">
+    
+    <ul class="nav nav-tabs">
+  <li role="presentation" ><a  href="home.php">Home</a></li>
+  <li role="presentation"><a  href="gallery.php">Gallery</a></li>
+  <li role="presentation"><a href="Table.php">Contact</a></li>
+  <li role="presentation"><a href="About.php">About</a></li>
+  <li role="presentation"><a href="content1.html">Index</a></li>
 </ul>
 
 
-        <div id="columnleft">
-<h2 style="text-align:center; ;  background-color:black;"><font size="8" color="white">Shivalli Brahmins </font></h2>
+        <div>
+
 
 
 
@@ -401,14 +406,19 @@ function showDivs(n) {
    <div class="wrapper">
   <nav class="vertical">
     <ul>
-      <li>
-        <a href="#">Home</a>
+        <li>
+          <img src="images/final logo copy.png" alt="" height="100px;" width="100px;"/>
+          <p><font size="2" color="White">Like our page on Facebook</font></p>
+          <div class="fb-like" style=" padding-bottom:15px; background-color:#262626;  " data-href="https://www.facebook.com/pages/%E0%B2%89%E0%B2%A6%E0%B3%8D%E0%B2%AF%E0%B2%BE%E0%B2%B5%E0%B2%B0-%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%BE%E0%B2%B9%E0%B3%8D%E0%B2%AE%E0%B2%A3-%E0%B2%AA%E0%B2%B0%E0%B2%BF%E0%B2%B7%E0%B2%A4%E0%B3%8D/122840598365720?created&amp;ref_type=bookmark" 
+             data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         <div>
           <ul>
               <li><a href="tulu1.php">Tulu Language</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Corporate</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">TuluNadu</a></li>
+            <li><a href="#">Tulunadu Temples</a></li>
+            <li class="active"><a href="great.php">Great Acharyas</a></li>
+            <li><a href="articles.php">readmore</a></li>
+           
           </ul>
         </div>
       </li>
@@ -422,23 +432,23 @@ function showDivs(n) {
 
 <br/>
 <h1 style="margin-left:20px; align-content:center; ">Great Acharyas</h1>
-<p style="border-bottom:1px solid black; margin-left: 20px; margin-right:30px; "></p>
+
 
 
 <div>
     <input type="checkbox" class="read-more-state" id="post-1" />
-  <p class="read-more-wrap" style="margin-left:20px; margin-right: 20px; padding: 2%;
+  <p  class="read-more-wrap" style="margin-left:20px; margin-right: 340px; padding: 2%;
   background: #fff9c6;
   color: #c7b27e;
   border: 1px solid #fce29f;
-          border-radius: .25em;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="read-more-target">
+          border-radius: .25em;" ><font color="black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
       Srimad Ananda Teertha, also known as Poornaprajna and Madhvacharya, is the propagator of the doctrine of Tattvavada. He is the last of the great Acharyas of Vedanta, and is also the 22nd commentator on the Brahma-Sûtra of Veda Vyasa.
 
 His doctrine asserts that the differences are eternally real, and that hence there is more than one absolute real, and that Hari (Vishnu) is the only entity praised in the Shrutis and their adjuncts. Thus, he always identifies the Brahman of the Upanishads with Vishnu, and forcefully argues against the dichotomy of Shrutis (tattvaavedaka / atattvaavedaka) as claimed by Sri Sankaracharya, saying that such arbitration of apaurusheya scripture is unacceptable both logically and spiritually. He also emphasizes that it is important to understand and specifically reject other schools’ precepts, and hence devotes much time to nitpicking analyses and denunciations of other doctrines.
 
 Srimad Ananda Teertha is commonly identified with Madhva, the third avataara of Mukhya PraaNa, the god of life, as given in the BaLittha Sukta of the Rig Veda. The first two avatara-s are as Hanuman and Bheemasena, and the third is Madhva, who came down to Earth as a sanyasi.
 
-Srimad Ananda Teertha himself makes the claim to being Madhva in several instances, one of which is in the Vishnu-tattva-vinirnaya. It was recognized in his own time, and it has been documented, that he had all thirty-two shubha-lakshaNa-s that define a ruju-taattvika-yogi, including the prescribed height of ninety-six inches (“shaNNavati angulo.apetam”) quoted in the Mahabharata-Tatparya-Nirnaya.
+Srimad Ananda Teertha himself makes the claim to being Madhva in several instances,<span class="read-more-target"> one of which is in the Vishnu-tattva-vinirnaya. It was recognized in his own time, and it has been documented, that he had all thirty-two shubha-lakshaNa-s that define a ruju-taattvika-yogi, including the prescribed height of ninety-six inches (“shaNNavati angulo.apetam”) quoted in the Mahabharata-Tatparya-Nirnaya.
 
 However, he is firmly set against the notion of accepting doctrines because they come from prophets or claimed gods. He also dismisses claims that only part of the Vedas are useful, and claims that even the so-called karma-kaNDa portions of them are only meant to worship Hari.
 
@@ -468,17 +478,18 @@ garIyasIm vishvagurOrvishuddhAm vakShyAmi vAyOravatAralIlAm
 Devotion to God (Mukunda) will arise only with devotion to the preceptor (Guru). Hence, for securing the grace of God for the good people through devotion, I will describe the great, pure Avataaraleela of Sri Vayu, who is the great preceptor of the entire world.
 
 – compiled by Balachandra Achar Hejamady
-      </span></p>
+</span></font></p>
       <label for="post-1" class="read-more-trigger"></label>
       
       
-      
+</div>
+<div>
   <input type="checkbox" class="read-more-state" id="post-2" />
-  <p class="read-more-wrap" style="margin-left:20px; margin-right: 20px; padding: 2%;
+  <p class="read-more-wrap" style="margin-left:20px; margin-right: 340px; padding: 2%;
   background: #fff9c6;
   color: #c7b27e;
   border: 1px solid #fce29f;
-  border-radius: .25em;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="read-more-target">
+  border-radius: .25em;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       Hare Srinivasa
 
 Sri Raghavendra SwamigaLu was one of the great proponents of the Madhva philosophy. For nearly 50 years, he was the head of one of the great peeTha-s. His predecessors include such scholars like Vijayeendra teertha & Sudheendra teertha.
@@ -497,7 +508,7 @@ Venkatanatha studied yajur veda, maNimanjari, and anumadhvavijaya at Madurai.His
 
 This is not surprising, since Venkatanatha came from a family skilled in music. His great-grandfather, Krishnabhatta, tutored the King of the Vijayanagar kingdom, Krishnadevaraya, in vina, and his father was skilled in music as well.
 
-Upon returning from Madurai, he was married to Saraswati, who was from a noble family. His marriage, just like his Upanayanam and schooling, was arranged by his brother Gururajacharya.
+Upon returning from Madurai, <span class="read-more-target"> he was married to Saraswati, who was from a noble family. His marriage, just like his Upanayanam and schooling, was arranged by his brother Gururajacharya.
 
 The Shastras say that for one who has control of his senses, wedded life does not hamper learning. For Venkatanatha, most of his learning occurred after marrying Saraswati, through the blessings of Goddess Saraswati.
 
@@ -730,7 +741,13 @@ Click here for Sri Raghavendra Strotram
   <label for="post-2" class="read-more-trigger"></label>
 </div>
 </div>
+   
         
+        <div  style="width:1170px; height:120px; background-color: black; margin-top: 30px; ">
+            <p>fjhvhv</p>
+        </div>
+        
+       
 
 </body>
 

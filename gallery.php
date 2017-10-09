@@ -261,21 +261,22 @@ nav.vertical {
                 padding: 10px 0 10px 50px;
               }
 #columnright{
-    width:300px;
-    height:1000px;
-    background-color: white;
-   margin-top: -63px;
-   margin-right: -325px;
+     width:280px;
+    height:95%;
+    
+   margin-top: -667px;
+   margin-right:35px;
     box-shadow:0 2px 50px;
     color:black;
     float: right;
-    border: 5px dotted black;
+    
     border-radius: 5px;
+    
 }
 
 #gallery{
    
-    margin: auto;
+    
     width:800px; 
     padding: 5px;
     height: 400px;
@@ -346,7 +347,14 @@ nav.vertical {
     border:1px solid #999999; }
 </style>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -377,32 +385,34 @@ function showDivs(n) {
 </script>
 
 
-<div style="background-color:#f2f2f2; color:white; padding:690px;">
+<div style="background-color: #fafafa; background-image: url('images/back3.jpg'); background-repeat: no-repeat;  background-size: 1380px 1160px; color:white; padding:690px;">
 
 </div>
 
 
 
-    <img style="margin-left:90px; margin-top: -2550px;" src="images/brahmanparishat.png" alt=""/>
+<img style="margin-left: 135px;  margin-top: -2513px;" src="images/final logo copy.png" width="130px" height="170px"  alt=""/>
+  
+<img style="margin-left: 735px;  margin-top: -2513px;" src="images/madhva.png" width="160px" height="170px"  alt=""/>
 
-
-    <div class="block" style=" padding-top: 80px; padding-bottom:30px; background: rgb(223,105,78);  box-shadow:0 2px 50px;  color:black; margin-left:90px;  box-shadow:0 10px 50px;   margin-right:90px; margin-top:-1370px; ">
-          <p  align="center" valign="middle"><font size="8" color="white">Brahman Parishat</font></p>
+    <div  id="borderimg2"  class="block" style=" padding-top: 130px; padding-bottom:30px; background-color:#ff3300; background-image: url('images/1.jpg');  background-size: 140px 160px;    box-shadow:0 2px 50px;  color:black; margin-left:120px;  box-shadow:0 10px 50px;   margin-right:120px; margin-top: -1385px; border-bottom-left-radius: 2em; border-top-right-radius:  2em; ">
+          <p    align="center" valign="middle"><font size="8" color="white">ಉದ್ಯಾವರ ಬ್ರಾಹ್ಮಣ ಪರಿಷತ್</font></p>
 
     </div>
 
-    <div style="background-color:#ffffcc; box-shadow:0 1px 50px;  color:black; margin-left:90px; margin-right:90px; margin-top:0px">
-        <ul>
-  <li><a class="active" href="home.php">Home</a></li>
-  <li><a href="gallery.php">Gallery</a></li>
-  <li><a href="Table.php">Contact</a></li>
-  <li><a href="About.php">About</a></li>
-  <li><a href="content1.html">Index</a></li>
+    <div   style="background-color:#ffffff;  height:1000px;   box-shadow:0 1px 50px;  color:black; margin-left:120px; margin-right:120px; margin-top:0px">
+    
+    <ul class="nav nav-tabs">
+  <li role="presentation"  ><a  href="home.php">Home</a></li>
+  <li role="presentation" class="active"><a  href="gallery.php">Gallery</a></li>
+  <li role="presentation"><a href="Table.php">Contact</a></li>
+  <li role="presentation"><a href="About.php">About</a></li>
+  <li role="presentation"><a href="content1.html">Index</a></li>
 </ul>
 
 
-        <div id="columnleft" >
-<h2 style="text-align:center;   background-color:black;"><font size="8" color="white">Shivalli Brahmins </font></h2>
+        <div >
+            <p    align="left" style=" padding-top:10px; padding-left:20px; " ><font size="8" color="black">Gallery</font></p>
 
 <div id="gallery" >
 
@@ -423,6 +433,43 @@ function showDivs(n) {
     <a href="#lightbox4"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
         
 </div><div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+  
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
+    <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
+        
+</div>
+    <div id="tumbs" style="   width: 160px;   height: 180px; ">
     <a href="#lightbox5"><img src="images/56.jpg" alt="" width="100%" height="100%" alt="" id="img-frame"/></a>
         
 </div>
@@ -494,14 +541,17 @@ function showDivs(n) {
    <div class="wrapper">
   <nav class="vertical">
     <ul>
-      <li>
-        <a href="#">Home</a>
+        <li>
+          <img src="images/final logo copy.png" alt="" height="100px;" width="100px;"/>
+          <p><font size="2" color="White">Like our page on Facebook</font></p>
+          <div class="fb-like" style=" padding-bottom:15px; background-color:#262626;  " data-href="https://www.facebook.com/pages/%E0%B2%89%E0%B2%A6%E0%B3%8D%E0%B2%AF%E0%B2%BE%E0%B2%B5%E0%B2%B0-%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%BE%E0%B2%B9%E0%B3%8D%E0%B2%AE%E0%B2%A3-%E0%B2%AA%E0%B2%B0%E0%B2%BF%E0%B2%B7%E0%B2%A4%E0%B3%8D/122840598365720?created&amp;ref_type=bookmark" 
+             data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         <div>
           <ul>
               <li><a href="tulu1.php">Tulu Language</a></li>
             <li><a href="#">TuluNadu</a></li>
             <li><a href="#">Tulunadu Temples</a></li>
-            <li><a href="great.php">Great Acharyas</a></li>
+            <li class="active"><a href="great.php">Great Acharyas</a></li>
             <li><a href="articles.php">readmore</a></li>
            
           </ul>
@@ -521,7 +571,7 @@ function showDivs(n) {
 
 
 </div>
-        <div  style="width:1170px; height:20px; background-color: black; margin-top: 30px;">
+        <div  style="width:1170px; height:20px; background-color: black; margin-top: 530px;">
             <p>fjhvhv</p>
         </div>
 

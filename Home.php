@@ -172,17 +172,7 @@ height: 349px;
     background: #333;
 }
 
-#columnleft{
-    width:800px;
-    height:75%;
-    background-color: white;
-    margin-left: 30px;
-    margin-top: 30px;
-    box-shadow:0 2px 50px;
-    color:black;
-    padding-bottom: 40px;
- 
-}
+
 
 #div.wrapper {
   margin: 20px auto;
@@ -270,13 +260,16 @@ nav.vertical {
     -o-border-image: url(border.png) 30% round; /* Opera 11-12.1 */
     border-image: url(border.png) 30% round;
 }
-              
+ #img-frame {
+    background:transparent;
+    padding:8px;
+    border:1px solid #999999; }             
 #columnright{
      width:280px;
     height:95%;
     
    margin-top: -63px;
-   margin-right: -325px;
+   margin-right:35px;
     box-shadow:0 2px 50px;
     color:black;
     float: right;
@@ -287,7 +280,7 @@ nav.vertical {
 hr { 
     display: block;
     margin-left: 90px;
-    margin-right: 170px;
+    margin-right: 670px;
     border-style: inset;
     border-width: 1px;
 border-color: black;
@@ -304,7 +297,14 @@ border-color: black;
 
 </style>
 <body>
-    
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>  
    
 <script>
 var slideIndex = 1;
@@ -346,8 +346,8 @@ function showDivs(n) {
   
 <img style="margin-left: 735px;  margin-top: -2513px;" src="images/madhva.png" width="160px" height="170px"  alt=""/>
 
-    <div  id="borderimg2"  class="block" style=" padding-top: 130px; padding-bottom:30px; background-color:#ff3300; background-image: url('images/1.jpg');  background-size: 140px 160px;    box-shadow:0 2px 50px;  color:black; margin-left:90px;  box-shadow:0 10px 50px;   margin-right:90px; margin-top: -1385px; border-bottom-left-radius: 2em; border-top-right-radius:  2em; ">
-          <p    align="center" valign="middle"><font size="8" color="white">ಉದ್ಯಾವರ ಬ್ರಾಹ್ಮಣ ಪರಿಷತ್</font></p>
+    <div  id="borderimg2"  class="block" style=" padding-top: 130px; padding-bottom:30px; background-color:#ff3300; background-image: url('images/1.jpg');  background-size: 140px 160px;    box-shadow:0 2px 50px;  color:black; margin-left:120px;  box-shadow:0 10px 50px;   margin-right:120px; margin-top: -1385px; border-bottom-left-radius: 2em; border-top-right-radius:  2em; ">
+          <p    align="center" valign="middle"><font size="8" color="white">ಉದ್ಯಾವರ ಬ್ರಾಹ್ಮಣ ಪರಿಷತ್ </font></p>
 
     </div>
 
@@ -355,7 +355,7 @@ function showDivs(n) {
         
         
         
-<div   style="background-color:#ffffff;   box-shadow:0 1px 50px;  color:black; margin-left:90px; margin-right:90px; margin-top:0px">
+<div   style="background-color:#ffffff;   box-shadow:0 1px 50px;  color:black; margin-left:120px; margin-right:120px; margin-top:0px">
     
     <ul class="nav nav-tabs">
   <li role="presentation"  class="active"><a  href="home.php">Home</a></li>
@@ -380,7 +380,7 @@ function showDivs(n) {
         
         
 
-        <div id="columnleft">
+        
            
 
             <div class="container" style=" padding-top: 50px;" >
@@ -400,13 +400,13 @@ function showDivs(n) {
                 <!-- wrapper for slides-->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img style="width:750px; height:350px;" src="images/56.jpg"alt=""/>
+                        <img style="width:750px; height:350px;" src="images/56.jpg"alt="" id="img-frame"/>
                     </div>
                     <div class="item">
-                        <img style="width:850px; height:350px;" src="images/Brushes.jpg"alt=""/>
+                        <img style="width:850px; height:350px;" src="images/Brushes.jpg"alt="" id="img-frame"/>
                     </div>
                     <div class="item">
-                        <img style="width:850px; height:350px;" src="images/70.jpg"alt=""/>
+                        <img style="width:850px; height:350px;" src="images/70.jpg"alt="" id="img-frame"/>
                     </div>
 
                 </div>
@@ -437,14 +437,17 @@ function showDivs(n) {
    <div class="wrapper">
   <nav class="vertical">
     <ul>
-      <li>
-        <a href="#">Home</a>
+        <li>
+          <img src="images/final logo copy.png" alt="" height="100px;" width="100px;"/>
+          <p><font size="2" color="White">Like our page on Facebook</font></p>
+          <div class="fb-like" style=" padding-bottom:15px; background-color:#262626;  " data-href="https://www.facebook.com/pages/%E0%B2%89%E0%B2%A6%E0%B3%8D%E0%B2%AF%E0%B2%BE%E0%B2%B5%E0%B2%B0-%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%BE%E0%B2%B9%E0%B3%8D%E0%B2%AE%E0%B2%A3-%E0%B2%AA%E0%B2%B0%E0%B2%BF%E0%B2%B7%E0%B2%A4%E0%B3%8D/122840598365720?created&amp;ref_type=bookmark" 
+             data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         <div>
           <ul>
               <li><a href="tulu1.php">Tulu Language</a></li>
             <li><a href="#">TuluNadu</a></li>
             <li><a href="#">Tulunadu Temples</a></li>
-            <li><a href="great.php">Great Acharyas</a></li>
+            <li class="active"><a href="great.php">Great Acharyas</a></li>
             <li><a href="articles.php">readmore</a></li>
            
           </ul>
@@ -457,10 +460,9 @@ function showDivs(n) {
 
 
 
-
 <br/>
 <h1 style="margin-left:20px; align-content:center; ">Shivalli Brahmins</h1>
-<p style="border-bottom:1px solid black; margin-left: 20px; margin-right:30px; "></p>
+
 <p style="margin-left:20px; margin-right: 20px; "><font style=" font-family:Book Antiqua; " > 
 </font></p>
 <br/>
@@ -478,7 +480,7 @@ function showDivs(n) {
     <a href="http://www.udipikrishnamutt.com/"><img src="images/udupi-krishna.jpg"  style=" width:130px; border-style: solid;  height:120px;" alt=""/></a>
     <p><font size="2" color="black">Click here to visit Krishna Mutt website</font></p>
         </div> 
-</div>
+
         
         
         <div  style="width:1170px; height:20px; background-color: black; margin-top: 30px; ">
