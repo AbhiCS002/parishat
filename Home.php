@@ -268,7 +268,7 @@ nav.vertical {
      width:280px;
     height:95%;
     
-   margin-top: -63px;
+   margin-top: -363px;
    margin-right:35px;
     box-shadow:0 2px 50px;
     color:black;
@@ -306,6 +306,20 @@ border-color: black;
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>  
    
+
+<script language='JavaScript'>
+
+
+function getwords()
+{
+textbox = document.getElementById('words');
+if (textbox.value != "")
+document.write("You entered: " + textbox.value)
+else
+alert("No word has been entered!")
+}
+
+</script>
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -461,7 +475,7 @@ function showDivs(n) {
 
 
 <br/>
-<h1 style="margin-left:20px; align-content:center; ">Shivalli Brahmins</h1>
+<h1 style="margin-left:20px; align-content:center; ">Welcome to Udyavara Brahmana Parishat</h1>
 
 <p style="margin-left:20px; margin-right: 20px; "><font style=" font-family:Book Antiqua; " > 
 </font></p>
@@ -487,6 +501,9 @@ function showDivs(n) {
             <p>fjhvhv</p>
         </div>
 </div> 
+
+
+
 </body>
 
 <!-- Mirrored from www.w3schools.com/html/tryit.asp?filename=tryhtml_div_capitals by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 May 2016 21:37:29 GMT -->
